@@ -1,4 +1,3 @@
-import "..";
 
 function Todo({ todo, onChangeEditMode, onDelete }) {
   const { id, value } = todo;
