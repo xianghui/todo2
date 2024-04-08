@@ -18,12 +18,12 @@ const Api = {
     });
   },
   deleteTodo(id) {
-    return fetch(`http://localhost:3001/todos/${id}`, {
+    return fetch(`${SERVER_PREFIX}/todos/${id}`, {
       method: "DELETE",
     });
   },
   getAllTodos() {
-    return fetch("http://localhost:3001/todos");
+    return fetch(`${SERVER_PREFIX}/todos`);
   },
 };
 
