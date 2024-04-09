@@ -54,7 +54,6 @@ function TodoApp() {
         onChangeEditMode={changeEditMode}
         onEdit={editEntry}
         onDelete={deleteEntry}
-        onAdd={addNewEntry}
       />
       <br />
       <TodoForm editMode={false} onAdd={addNewEntry} />
