@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "../todo.css";
+import "./todo.css";
 
 function TodoForm({
   editMode = false,
